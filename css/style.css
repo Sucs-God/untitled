@@ -1,0 +1,45 @@
+
+
+.row-item{
+    display: flex;
+    margin: 5px;
+    flex-direction: row;
+    background-color: #44BBFF;
+    width: 350px;
+    justify-content: center;
+}
+.column-item{
+    width: 100px;
+    height: 100px;
+    background-color: #112233;
+    border: 3px solid #F0F1F5;
+    margin: 5px;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+}
+
+.active{
+    background-color: #FC575E;
+}
+
+.b-container{
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.b-popup{
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+
+}
